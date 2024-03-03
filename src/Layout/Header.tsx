@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
-import { DarkThemeToggle } from "flowbite-react";
 
 const Header = () => {
   return (
-    <header className="flex items-center h-24 lg:px-48 bg-white dark:bg-[#121212]">
+    <header className="flex items-center min-h-24 lg:px-48 bg-white dark:bg-[#121212]">
       <div className="flex w-full justify-between dark:text-white">
         <h2>Insung's Portfolio</h2>
 

@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "@/Layout/Header";
 import Footer from "@/Layout/Footer";
@@ -19,7 +18,7 @@ const App = () => {
         </div>
         <Router>
           <Header />
-          <div className="flex flex-col flex-1 lg:mx-48">
+          <div className="flex flex-col flex-1">
             <Routes>
               <Route path="/" Component={MainPage} />
               <Route path="/about" Component={About} />

@@ -4,7 +4,7 @@ import { ReactComponent as Velog } from "@/assets/icons/velog.svg";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col w-full items-center justify-center h-48 gap-[16px] bg-gray-500 max-lg:h-60 text-white dark:bg-[#121212]">
+    <footer className="flex flex-col w-full items-center justify-center min-h-48 gap-[16px] bg-gray-500 max-lg:min-h-60 text-white dark:bg-[#121212]">
       <div className="flex gap-10">
         <Github
           className="size-12 cursor-pointer"
