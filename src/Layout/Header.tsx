@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import { DarkThemeToggle } from "flowbite-react";
 
 const Header = () => {
   return (
-    <header className="flex items-center h-24 mx-48">
-      <div className="flex w-full justify-between">
+    <header className="flex items-center h-24 lg:px-48 bg-white dark:bg-[#121212]">
+      <div className="flex w-full justify-between dark:text-white">
         <h2>Insung's Portfolio</h2>
 
-        <ul className="flex gap-[24px] text-[20px] max-lg:hidden">
+        <ul className="flex gap-[24px] items-center text-[20px] max-lg:hidden ">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -15,6 +16,9 @@ const Header = () => {
           </li>
           <li>
             <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/skill">Skill</Link>
           </li>
           <li>
             <Link to="/study">Study</Link>
