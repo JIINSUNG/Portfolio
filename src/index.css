@@ -10,6 +10,13 @@
   font-style: normal;
 }
 
+@layer utilites {
+  .dark {
+    background-color: #121212;
+    color: white;
+  }
+}
+
 @layer base {
   * {
     font-family: "Pretendard-Regular", sans-serif;
