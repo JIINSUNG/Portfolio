@@ -1,5 +1,7 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
+import Kakao from "@/Components/Kakao";
+
 const About = () => {
   return (
     <div className="flex flex-col flex-1 justify-center gap-[120px] items-center">
@@ -36,7 +38,8 @@ const About = () => {
           </div>
           <div className="flex flex-col items-center gap-[15px]">
             <h2>주소지</h2>
-            <h3>경기도 용인시</h3>
+            <h3>경기도 용인시 수지구 만현로</h3>
+            <Kakao keyword="경기도 용인시 수지구 만현로" />
           </div>
           <div>
             <div className="flex flex-col items-center gap-[15px]">
@@ -51,6 +54,7 @@ const About = () => {
           <div className="flex flex-col items-center gap-[15px]">
             <h2>학력</h2>
             <h3>단국대학교 (소프트웨어학과)</h3>
+            <Kakao keyword="단국대학교 죽전" mapId={2} />
           </div>
         </Carousel>
       </div>
